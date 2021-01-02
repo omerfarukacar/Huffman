@@ -1,241 +1,117 @@
-# <span style="color: darkred"> TİCARET ÜNİVERSİTESİ </span> 
+# TICARET UNIVERSITESI
 
-<<<<<<< HEAD
-###<span style="color: darkred"> AÇIKLAMA  </span>
-
-##<span style="color: darkblue"> Huffman  </span>
-
- Huffman kodlaması veri sıkıştırmak için kullanılan yöntemlerden biridir.
- Temel amaç veriyi kayıpsız olarak sıkıştırıp geri açmaktır.
- En büyük avantajı en sık kullanılan karakterlerin frekansına göre sıralama yapılıp, 
-en az alanı en sık kullanılan karaktere ayırmasıdır.
-
-Huffman Çözücü
-
- Mevcut bitlere karşılık gelen karakterleri bulmak amacı ile kullanılır.
- 
-Entropi
-
- Olabilecek en yüksek sıkıştırma oranını belirtir.
-
-Ortalama Sözlük Uzunluğu
-
- Oluşturulan sözlüğün kelimelerinin ortalama uzunluğunu belirtir.
-
-Sıkıştırma Oranı
-
- Huffman kodlama yaptıktan sonra oluşan sözlüğün sıkıştırma oranını belirtir.
-
-##<span style="color: darkblue"> GEREKLİLİKLER  </span>
-
-
---------------------------------------------------
-
-
-Python 3.9
-
-math kütüphanesi 
-
-
-##<span style="color: darkblue"> ÖRNEK  </span>
-
-=======
-AÇIKLAMA
+A�IKLAMA
 
 Huffman
- Huffman kodlaması veri sıkıştırmak için kullanılan yöntemlerden biridir.
- Temel amaç veriyi kayıpsız olarak sıkıştırıp geri açmaktır.
- En büyük avantajı en sık kullanılan karakterlerin frekansına göre sıralama yapılıp, 
-en az alanı en sık kullanılan karaktere ayırmasıdır.
+ Huffman kodlamas� veri s�k��t�rmak i�in kullan�lan y�ntemlerden biridir.
+ Temel ama� veriyi kay�ps�z olarak s�k��t�r�p geri a�makt�r.
+ En b�y�k avantaj� en s�k kullan�lan karakterlerin frekans�na g�re s�ralama yap�l�p, 
+en az alan� en s�k kullan�lan karaktere ay�rmas�d�r.
 
-Huffman Çözücü
- Mevcut bitlere karşılık gelen karakterleri bulmak amacı ile kullanılır.
+Huffman ��z�c�
+ Mevcut bitlere kar��l�k gelen karakterleri bulmak amac� ile kullan�l�r.
  
 Entropi
- Olabilecek en yüksek sıkıştırma oranını belirtir.
+ Olabilecek en y�ksek s�k��t�rma oran�n� belirtir.
 
-Ortalama Sözlük Uzunluğu
- Oluşturulan sözlüğün kelimelerinin ortalama uzunluğunu belirtir.
+Ortalama S�zl�k Uzunlu�u
+ Olu�turulan s�zl���n kelimelerinin ortalama uzunlu�unu belirtir.
 
-Sıkıştırma Oranı
- Huffman kodlama yaptıktan sonra oluşan sözlüğün sıkıştırma oranını belirtir.
+S�k��t�rma Oran�
+ Huffman kodlama yapt�ktan sonra olu�an s�zl���n s�k��t�rma oran�n� belirtir.
 
-GEREKLİLİKLER
+GEREKL�L�KLER
+--------------------------------------------------
+
 Python 3.9
-math kütüphanesi 
+math k�t�phanesi 
 
-ÖRNEK
->>>>>>> 134ddadde1fb2c31ece630dcfd9d9bb15c88e5c1
+�RNEK
 --------------------------------------------------
-
 Enter message : HUFFMANTESTCODE
-
 Enter to encode binary :101110101010111010101
-
 --------------------------------------------------
-
 Decoded String =  10111010101011101010
-
 Decoded Letters =  TMETME
-
 --------------------------------------------------
-
 Index =  1
-
 Symbol =  F
-
 Frequence =  2
-
 Code =  100
-
 Code Lenght =  3
-
 --------------------------------------------------
-
 Index =  2
-
 Symbol =  T
-
 Frequence =  2
-
 Code =  101
-
 Code Lenght =  3
-
 --------------------------------------------------
-
 Index =  3
-
 Symbol =  E
-
 Frequence =  2
-
 Code =  010
-
 Code Lenght =  3
-
 --------------------------------------------------
-
 Index =  4
-
 Symbol =  H
-
 Frequence =  1
-
 Code =  111
-
 Code Lenght =  3
-
 --------------------------------------------------
-
 Index =  5
-
 Symbol =  U
-
 Frequence =  1
-
 Code =  1100
-
 Code Lenght =  4
-
 --------------------------------------------------
-
 Index =  6
-
 Symbol =  M
-
 Frequence =  1
-
 Code =  1101
-
 Code Lenght =  4
-
-
 --------------------------------------------------
-
 Index =  7
-
 Symbol =  A
-
 Frequence =  1
-
 Code =  0010
-
 Code Lenght =  4
-
 --------------------------------------------------
-
 Index =  8
-
 Symbol =  N
-
 Frequence =  1
-
 Code =  0011
-
 Code Lenght =  4
-
 --------------------------------------------------
-
 Index =  9
-
 Symbol =  S
-
 Frequence =  1
-
 Code =  0000
-
 Code Lenght =  4
-
 --------------------------------------------------
-
 Index =  10
-
 Symbol =  C
-
 Frequence =  1
-
 Code =  0001
-
 Code Lenght =  4
-
 --------------------------------------------------
-
 Index =  11
-
 Symbol =  O
-
 Frequence =  1
-
 Code =  0110
-
 Code Lenght =  4
-
 --------------------------------------------------
-
 Index =  12
-
 Symbol =  D
-
 Frequence =  1
-
 Code =  0111
-
 Code Lenght =  4
-
 --------------------------------------------------
-
 Average Dictionary Length =  3.533333333333333
-
 Compression Ratio =  0.1166666666666667
-
 Entropy =  3.5068905956085183
-
 --------------------------------------------------
 
-
-#License and Citation
-
+License and Citation
 The software is licensed under the MIT License.
 
 
