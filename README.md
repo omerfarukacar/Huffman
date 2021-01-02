@@ -2,27 +2,27 @@
 
 AÇIKLAMA
 
--Huffman
+Huffman
  Huffman kodlamasý veri sýkýþtýrmak için kullanýlan yöntemlerden biridir.
  Temel amaç veriyi kayýpsýz olarak sýkýþtýrýp geri açmaktýr.
  En büyük avantajý en sýk kullanýlan karakterlerin frekansýna göre sýralama yapýlýp, 
 en az alaný en sýk kullanýlan karaktere ayýrmasýdýr.
 
--Huffman Çözücü
+Huffman Çözücü
  Mevcut bitlere karþýlýk gelen karakterleri bulmak amacý ile kullanýlýr.
  
--Entropi
+Entropi
  Olabilecek en yüksek sýkýþtýrma oranýný belirtir.
 
--Ortalama Sözlük Uzunluðu
+Ortalama Sözlük Uzunluðu
  Oluþturulan sözlüðün kelimelerinin ortalama uzunluðunu belirtir.
 
--Sýkýþtýrma Oraný
+Sýkýþtýrma Oraný
  Huffman kodlama yaptýktan sonra oluþan sözlüðün sýkýþtýrma oranýný belirtir.
 
 GEREKLÝLÝKLER
--Python 3.9
--math kütüphanesi 
+Python 3.9
+math kütüphanesi 
 
 ÖRNEK
 --------------------------------------------------
