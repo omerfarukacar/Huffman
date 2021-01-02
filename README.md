@@ -1,117 +1,213 @@
-# TICARET UNIVERSITESI
+# <span style="color: darkred"> TÄ°CARET ÃœNÄ°VERSÄ°TESÄ° </span> 
 
-AÇIKLAMA
+###<span style="color: darkred"> AÃ‡IKLAMA  </span>
 
-Huffman
- Huffman kodlamasý veri sýkýþtýrmak için kullanýlan yöntemlerden biridir.
- Temel amaç veriyi kayýpsýz olarak sýkýþtýrýp geri açmaktýr.
- En büyük avantajý en sýk kullanýlan karakterlerin frekansýna göre sýralama yapýlýp, 
-en az alaný en sýk kullanýlan karaktere ayýrmasýdýr.
+##<span style="color: darkblue"> Huffman  </span>
 
-Huffman Çözücü
- Mevcut bitlere karþýlýk gelen karakterleri bulmak amacý ile kullanýlýr.
+ Huffman kodlamasÄ± veri sÄ±kÄ±ÅŸtÄ±rmak iÃ§in kullanÄ±lan yÃ¶ntemlerden biridir.
+ Temel amaÃ§ veriyi kayÄ±psÄ±z olarak sÄ±kÄ±ÅŸtÄ±rÄ±p geri aÃ§maktÄ±r.
+ En bÃ¼yÃ¼k avantajÄ± en sÄ±k kullanÄ±lan karakterlerin frekansÄ±na gÃ¶re sÄ±ralama yapÄ±lÄ±p, 
+en az alanÄ± en sÄ±k kullanÄ±lan karaktere ayÄ±rmasÄ±dÄ±r.
+
+Huffman Ã‡Ã¶zÃ¼cÃ¼
+
+ Mevcut bitlere karÅŸÄ±lÄ±k gelen karakterleri bulmak amacÄ± ile kullanÄ±lÄ±r.
  
 Entropi
- Olabilecek en yüksek sýkýþtýrma oranýný belirtir.
 
-Ortalama Sözlük Uzunluðu
- Oluþturulan sözlüðün kelimelerinin ortalama uzunluðunu belirtir.
+ Olabilecek en yÃ¼ksek sÄ±kÄ±ÅŸtÄ±rma oranÄ±nÄ± belirtir.
 
-Sýkýþtýrma Oraný
- Huffman kodlama yaptýktan sonra oluþan sözlüðün sýkýþtýrma oranýný belirtir.
+Ortalama SÃ¶zlÃ¼k UzunluÄŸu
 
-GEREKLÝLÝKLER
+ OluÅŸturulan sÃ¶zlÃ¼ÄŸÃ¼n kelimelerinin ortalama uzunluÄŸunu belirtir.
+
+SÄ±kÄ±ÅŸtÄ±rma OranÄ±
+
+ Huffman kodlama yaptÄ±ktan sonra oluÅŸan sÃ¶zlÃ¼ÄŸÃ¼n sÄ±kÄ±ÅŸtÄ±rma oranÄ±nÄ± belirtir.
+
+##<span style="color: darkblue"> GEREKLÄ°LÄ°KLER  </span>
+
+
 --------------------------------------------------
+
 
 Python 3.9
-math kütüphanesi 
 
-ÖRNEK
+math kÃ¼tÃ¼phanesi 
+
+
+##<span style="color: darkblue"> Ã–RNEK  </span>
+
 --------------------------------------------------
+
 Enter message : HUFFMANTESTCODE
+
 Enter to encode binary :101110101010111010101
---------------------------------------------------
-Decoded String =  10111010101011101010
-Decoded Letters =  TMETME
---------------------------------------------------
-Index =  1
-Symbol =  F
-Frequence =  2
-Code =  100
-Code Lenght =  3
---------------------------------------------------
-Index =  2
-Symbol =  T
-Frequence =  2
-Code =  101
-Code Lenght =  3
---------------------------------------------------
-Index =  3
-Symbol =  E
-Frequence =  2
-Code =  010
-Code Lenght =  3
---------------------------------------------------
-Index =  4
-Symbol =  H
-Frequence =  1
-Code =  111
-Code Lenght =  3
---------------------------------------------------
-Index =  5
-Symbol =  U
-Frequence =  1
-Code =  1100
-Code Lenght =  4
---------------------------------------------------
-Index =  6
-Symbol =  M
-Frequence =  1
-Code =  1101
-Code Lenght =  4
---------------------------------------------------
-Index =  7
-Symbol =  A
-Frequence =  1
-Code =  0010
-Code Lenght =  4
---------------------------------------------------
-Index =  8
-Symbol =  N
-Frequence =  1
-Code =  0011
-Code Lenght =  4
---------------------------------------------------
-Index =  9
-Symbol =  S
-Frequence =  1
-Code =  0000
-Code Lenght =  4
---------------------------------------------------
-Index =  10
-Symbol =  C
-Frequence =  1
-Code =  0001
-Code Lenght =  4
---------------------------------------------------
-Index =  11
-Symbol =  O
-Frequence =  1
-Code =  0110
-Code Lenght =  4
---------------------------------------------------
-Index =  12
-Symbol =  D
-Frequence =  1
-Code =  0111
-Code Lenght =  4
---------------------------------------------------
-Average Dictionary Length =  3.533333333333333
-Compression Ratio =  0.1166666666666667
-Entropy =  3.5068905956085183
+
 --------------------------------------------------
 
-License and Citation
+Decoded String =  10111010101011101010
+
+Decoded Letters =  TMETME
+
+--------------------------------------------------
+
+Index =  1
+
+Symbol =  F
+
+Frequence =  2
+
+Code =  100
+
+Code Lenght =  3
+
+--------------------------------------------------
+
+Index =  2
+
+Symbol =  T
+
+Frequence =  2
+
+Code =  101
+
+Code Lenght =  3
+
+--------------------------------------------------
+
+Index =  3
+
+Symbol =  E
+
+Frequence =  2
+
+Code =  010
+
+Code Lenght =  3
+
+--------------------------------------------------
+
+Index =  4
+
+Symbol =  H
+
+Frequence =  1
+
+Code =  111
+
+Code Lenght =  3
+
+--------------------------------------------------
+
+Index =  5
+
+Symbol =  U
+
+Frequence =  1
+
+Code =  1100
+
+Code Lenght =  4
+
+--------------------------------------------------
+
+Index =  6
+
+Symbol =  M
+
+Frequence =  1
+
+Code =  1101
+
+Code Lenght =  4
+
+
+--------------------------------------------------
+
+Index =  7
+
+Symbol =  A
+
+Frequence =  1
+
+Code =  0010
+
+Code Lenght =  4
+
+--------------------------------------------------
+
+Index =  8
+
+Symbol =  N
+
+Frequence =  1
+
+Code =  0011
+
+Code Lenght =  4
+
+--------------------------------------------------
+
+Index =  9
+
+Symbol =  S
+
+Frequence =  1
+
+Code =  0000
+
+Code Lenght =  4
+
+--------------------------------------------------
+
+Index =  10
+
+Symbol =  C
+
+Frequence =  1
+
+Code =  0001
+
+Code Lenght =  4
+
+--------------------------------------------------
+
+Index =  11
+
+Symbol =  O
+
+Frequence =  1
+
+Code =  0110
+
+Code Lenght =  4
+
+--------------------------------------------------
+
+Index =  12
+
+Symbol =  D
+
+Frequence =  1
+
+Code =  0111
+
+Code Lenght =  4
+
+--------------------------------------------------
+
+Average Dictionary Length =  3.533333333333333
+
+Compression Ratio =  0.1166666666666667
+
+Entropy =  3.5068905956085183
+
+--------------------------------------------------
+
+
+#License and Citation
+
 The software is licensed under the MIT License.
 
 
