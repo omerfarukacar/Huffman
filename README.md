@@ -1,30 +1,30 @@
 # TICARET UNIVERSITESI
 
-AÇIKLAMA
+AÃ‡IKLAMA
 
 Huffman
- Huffman kodlaması veri sıkıştırmak için kullanılan yöntemlerden biridir.
- Temel amaç veriyi kayıpsız olarak sıkıştırıp geri açmaktır.
- En büyük avantajı en sık kullanılan karakterlerin frekansına göre sıralama yapılıp, 
-en az alanı en sık kullanılan karaktere ayırmasıdır.
+ Huffman kodlamasÄ± veri sÄ±kÄ±ÅŸtÄ±rmak iÃ§in kullanÄ±lan yÃ¶ntemlerden biridir.
+ Temel amaÃ§ veriyi kayÄ±psÄ±z olarak sÄ±kÄ±ÅŸtÄ±rÄ±p geri aÃ§maktÄ±r.
+ En bÃ¼yÃ¼k avantajÄ± en sÄ±k kullanÄ±lan karakterlerin frekansÄ±na gÃ¶re sÄ±ralama yapÄ±lÄ±p, 
+en az alanÄ± en sÄ±k kullanÄ±lan karaktere ayÄ±rmasÄ±dÄ±r.
 
-Huffman Çözücü
- Mevcut bitlere karşılık gelen karakterleri bulmak amacı ile kullanılır.
+Huffman Ã‡Ã¶zÃ¼cÃ¼
+ Mevcut bitlere karÅŸÄ±lÄ±k gelen karakterleri bulmak amacÄ± ile kullanÄ±lÄ±r.
  
 Entropi
- Olabilecek en yüksek sıkıştırma oranını belirtir.
+ Olabilecek en yÃ¼ksek sÄ±kÄ±ÅŸtÄ±rma oranÄ±nÄ± belirtir.
 
-Ortalama Sözlük Uzunluğu
- Oluşturulan sözlüğün kelimelerinin ortalama uzunluğunu belirtir.
+Ortalama SÃ¶zlÃ¼k UzunluÄŸu
+ OluÅŸturulan sÃ¶zlÃ¼ÄŸÃ¼n kelimelerinin ortalama uzunluÄŸunu belirtir.
 
-Sıkıştırma Oranı
- Huffman kodlama yaptıktan sonra oluşan sözlüğün sıkıştırma oranını belirtir.
+SÄ±kÄ±ÅŸtÄ±rma OranÄ±
+ Huffman kodlama yaptÄ±ktan sonra oluÅŸan sÃ¶zlÃ¼ÄŸÃ¼n sÄ±kÄ±ÅŸtÄ±rma oranÄ±nÄ± belirtir.
 
-GEREKLİLİKLER
+GEREKLÄ°LÄ°KLER
 Python 3.9
-math kütüphanesi 
+math kÃ¼tÃ¼phanesi 
 
-ÖRNEK
+Ã–RNEK
 --------------------------------------------------
 Enter message : HUFFMANTESTCODE
 Enter to encode binary :101110101010111010101
