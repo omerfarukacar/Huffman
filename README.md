@@ -21,6 +21,8 @@ Sýkýþtýrma Oraný
  Huffman kodlama yaptýktan sonra oluþan sözlüðün sýkýþtýrma oranýný belirtir.
 
 GEREKLÝLÝKLER
+--------------------------------------------------
+
 Python 3.9
 math kütüphanesi 
 
