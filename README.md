@@ -1,5 +1,6 @@
 # <span style="color: darkred"> TİCARET ÜNİVERSİTESİ </span> 
 
+<<<<<<< HEAD
 ###<span style="color: darkred"> AÇIKLAMA  </span>
 
 ##<span style="color: darkblue"> Huffman  </span>
@@ -38,6 +39,33 @@ math kütüphanesi
 
 ##<span style="color: darkblue"> ÖRNEK  </span>
 
+=======
+AÇIKLAMA
+
+Huffman
+ Huffman kodlaması veri sıkıştırmak için kullanılan yöntemlerden biridir.
+ Temel amaç veriyi kayıpsız olarak sıkıştırıp geri açmaktır.
+ En büyük avantajı en sık kullanılan karakterlerin frekansına göre sıralama yapılıp, 
+en az alanı en sık kullanılan karaktere ayırmasıdır.
+
+Huffman Çözücü
+ Mevcut bitlere karşılık gelen karakterleri bulmak amacı ile kullanılır.
+ 
+Entropi
+ Olabilecek en yüksek sıkıştırma oranını belirtir.
+
+Ortalama Sözlük Uzunluğu
+ Oluşturulan sözlüğün kelimelerinin ortalama uzunluğunu belirtir.
+
+Sıkıştırma Oranı
+ Huffman kodlama yaptıktan sonra oluşan sözlüğün sıkıştırma oranını belirtir.
+
+GEREKLİLİKLER
+Python 3.9
+math kütüphanesi 
+
+ÖRNEK
+>>>>>>> 134ddadde1fb2c31ece630dcfd9d9bb15c88e5c1
 --------------------------------------------------
 
 Enter message : HUFFMANTESTCODE
